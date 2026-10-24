@@ -14,9 +14,10 @@ For skills meant to be installed as they are, see
 |---|---|
 | [`idea`](skills/idea/) | Captures a content spark into my Trilium Inbox as an idea note, verbatim, from any repo. Capture first, judge later. |
 | [`tweets`](skills/tweets/) | Proposes a few short posts from what I already make (Trilium ideas, blog posts, my open source work, upcoming talks) and saves the ones I approve as planned drafts in Typefully, for X and Bluesky. It never publishes. |
+| [`conference`](skills/conference/) | My companion at a conference, all in one Trilium note: an Agenda of the sessions worth my time, takeaways caught from my phone (with a post when one is worth sharing, published only on my yes), and a recap with follow-ups. |
 
-Both expect MCP servers: [Trilium](https://github.com/TriliumNext/Trilium) for `idea` and `tweets`,
-[Typefully](https://typefully.com) for `tweets`.
+They expect MCP servers: [Trilium](https://github.com/TriliumNext/Trilium) for all three,
+[Typefully](https://typefully.com) for `tweets` and `conference`.
 
 ## Install
 

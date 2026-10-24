@@ -9,8 +9,9 @@ Davide runs two lanes on X:
 
 - **The queue** (this skill): 2-3 short posts a week, drafted from material he already has, planned in
   Typefully and mirrored to Bluesky. It keeps the profile alive in the weeks he has no time.
-- **The live lane** (not this skill): conferences, people he meets, reactions, replies. He writes those
-  himself, on X only. Never draft them.
+- **The live lane** (not this skill): conferences, people he meets, reactions, replies. At a Conference
+  the `conference` skill proposes them from his Takeaways; the rest he writes himself. Leave them out of
+  the queue.
 
 Your job: find the material, propose posts in his voice, and save the ones he approves as **planned**
 drafts. You never publish and never schedule. He confirms each post in Typefully himself.
