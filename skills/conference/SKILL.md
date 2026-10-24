@@ -1,6 +1,6 @@
 ---
 name: conference
-description: Run my Conference companion on Trilium, from any repo. Use when I want to plan which Sessions to follow at a conference, capture a takeaway during one ("takeaway: …", "cosa vedo dopo?"), or write the recap afterwards.
+description: 'Run my Conference companion on Trilium, from any repo. Use when I want to plan which Sessions to follow at a conference, capture a takeaway during one ("takeaway: …", "cosa vedo dopo?"), or write the recap afterwards.'
 ---
 
 # conference — the companion
