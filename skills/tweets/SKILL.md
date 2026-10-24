@@ -1,20 +1,20 @@
 ---
 name: tweets
-description: Propose a few short posts for Davide's X + Bluesky queue from what he already makes (Trilium ideas, blog posts, Argus activity, upcoming talks), then save the approved ones as planned drafts in Typefully. Use when Davide wants tweets, short posts, or to fill the queue ("proponimi dei tweet", "riempi la coda", "/tweets"), from any repo.
+description: Propose a few short posts for my X + Bluesky queue from what I already make (Trilium ideas, blog posts, Argus activity, upcoming talks), then save the approved ones as planned drafts in Typefully. Use when I want tweets, short posts, or to fill the queue ("proponimi dei tweet", "riempi la coda", "/tweets"), from any repo.
 ---
 
 # tweets — the queue lane
 
-Davide runs two lanes on X:
+I run two lanes on X:
 
-- **The queue** (this skill): 2-3 short posts a week, drafted from material he already has, planned in
-  Typefully and mirrored to Bluesky. It keeps the profile alive in the weeks he has no time.
-- **The live lane** (not this skill): conferences, people he meets, reactions, replies. At a Conference
-  the `conference` skill proposes them from his Takeaways; the rest he writes himself. Leave them out of
+- **The queue** (this skill): 2-3 short posts a week, drafted from material I already have, planned in
+  Typefully and mirrored to Bluesky. It keeps the profile alive in the weeks I have no time.
+- **The live lane** (not this skill): conferences, people I meet, reactions, replies. At a Conference
+  the `conference` skill proposes them from my Takeaways; the rest I write myself. Leave them out of
   the queue.
 
-Your job: find the material, propose posts in his voice, and save the ones he approves as **planned**
-drafts. You never publish and never schedule. He confirms each post in Typefully himself.
+Your job: find the material, propose posts in my voice, and save the ones I approve as **planned**
+drafts. You never publish and never schedule. I confirm each post in Typefully myself.
 
 ## 1. Check the queue
 
@@ -29,7 +29,7 @@ davideimola.dev repo).
 
 ## 2. Gather material
 
-Only from what exists. Never invent an event, a number, or an opinion Davide has not expressed.
+Only from what exists. Never invent an event, a number, or an opinion I have not expressed.
 
 - **Trilium** (`trilium` MCP): the Inbox `oI6dJqP0hGHG` (sparks, `#status=idea`) and the Contenuti
   collection `l78292msrPRH` (notes `#status=in-progress` or recently `published`). Read only: never
@@ -37,7 +37,7 @@ Only from what exists. Never invent an event, a number, or an opinion Davide has
 - **Blog**: `https://davideimola.dev/rss.xml`, the latest 2-3 posts. A post gives one line worth
   lifting, not a promo.
 - **Argus** (`gh` on `argusappsec/argus`): commits, merged PRs and releases of the last two weeks. This
-  is the richest seam: Davide's audience is the Go community and the Italian tech scene, his
+  is the richest seam: my audience is the Go community and the Italian tech scene, my
   positioning is AI agents for security, and Argus is an AI security agent written in Go. A design
   choice, a Go library that helped or hurt, an LLM behaviour seen from the integration side.
 - **Talks**: `https://davideimola.dev/sharing`, the upcoming ones.
@@ -46,7 +46,7 @@ Only from what exists. Never invent an event, a number, or an opinion Davide has
 
 Present 4-5 candidates in chat. For each: the post text, the source in one line, and your honest take
 on whether it is strong. Lead with your favourite. Mix the shapes: a build note from Argus, an opinion,
-a real question to the community (the shape that got the most replies on his Bluesky), a line lifted
+a real question to the community (the shape that got the most replies on my Bluesky), a line lifted
 from a post, a talk announcement when one is close.
 
 Rules for the text:
@@ -62,7 +62,7 @@ Rules for the text:
 - **Mentions**: X handles do not exist on Bluesky. When a post mentions someone, write the Bluesky
   version with their Bluesky handle or their name, and show both versions.
 
-Iterate until Davide approves. Push back when a change weakens a post.
+Iterate until I approve. Push back when a change weakens a post.
 
 ## 4. Save as planned drafts
 
@@ -70,13 +70,13 @@ For each approved post, `create_draft` on social set `97290`:
 
 - `platforms.x` and `platforms.bluesky` enabled with their posts; `linkedin` never.
 - `plan_at: "next-free-slot"`. **Never** `publish_at`, **never** `confirm_publish`: a planned draft sits
-  in the calendar and does nothing until Davide confirms it in Typefully.
+  in the calendar and does nothing until I confirm it in Typefully.
 - `draft_title`: a few words naming the topic.
-- `scratchpad_text`: the source (note title, post URL, PR link), so he can check it while reviewing.
+- `scratchpad_text`: the source (note title, post URL, PR link), so I can check it while reviewing.
 
 Done when every approved post exists as a planned draft. Reply with one line per draft (date of its
-slot and the first words), then a closing line reminding him the drafts publish only once he confirms
-them in Typefully. If a call fails, say which, and give him the text so nothing is lost.
+slot and the first words), then a closing line reminding me the drafts publish only once I confirm
+them in Typefully. If a call fails, say which, and give me the text so nothing is lost.
 
 ---
 

@@ -1,16 +1,16 @@
 ---
 name: idea
-description: Capture a raw content spark as an idea note in Davide's Trilium Inbox, from any repo. Use when Davide wants to jot down a content idea or spark and file it fast — capture first, judge later.
+description: Capture a raw content spark as an idea note in my Trilium Inbox, from any repo. Use when I want to jot down a content idea or spark and file it fast — capture first, judge later.
 ---
 
 # idea — the capture door
 
-File the spark Davide just gave you as a raw content idea in his Trilium Inbox, then confirm. **Capture
-first, judge later**: your whole job is to file the spark faithfully; it is judged later, when he works
+File the spark I just gave you as a raw content idea in my Trilium Inbox, then confirm. **Capture
+first, judge later**: your whole job is to file the spark faithfully; it is judged later, when I work
 the Contenuti board. File it as-is and add nothing of your own — no channel, no format, no quality
 verdict, no draft or rewrite.
 
-The **spark** is whatever Davide gave you with the invocation — the words after `/idea`, or the idea he
+The **spark** is whatever I gave you with the invocation — the words after `/idea`, or the idea I
 just expressed. With no spark, ask for it in one line and stop.
 
 ## Filing it
@@ -38,5 +38,5 @@ so it is not lost.
 
 _Self-contained on purpose: installed from `davideimola/skills` and run from any repo. If the Inbox or
 the template is ever recreated, find the new IDs with `search_notes` for `#inbox` and for
-`#template note.title = "Content Item"`. Schema of content notes: "Convenzioni per Claude" in Trilium's
+`#template note.title = "Content Item"`. Schema of content notes: "Convenzioni per Claude" `kg6Nk6GFhfZK` in Trilium's
 Sistema._
