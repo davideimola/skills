@@ -69,7 +69,8 @@ Done when you have the shortlist and the count of Calls the cap left out.
   cost to submit: published with a Brief first, then any Talk with a Brief, then one with an Abstract,
   then a bare spark.
 - **Now**: my positioning in Aree/Pipeline contenuti `I78vgbZLZnde`, active Projects in Progetti
-  `Gbou0FRbp5Ln`, Contenuti with `#status=in-progress`.
+  `Gbou0FRbp5Ln`, Contenuti with `#status=in-progress`, and the content ideas in the Inbox
+  `oI6dJqP0hGHG` (`#type=content #status=idea`): raw sparks, the best material for a new Talk.
 
 Done when you can name, for each Call, the Talk that fits it best and why.
 
