@@ -51,8 +51,12 @@ Davide's own written summary of a Conference: what he saw, the recurring themes,
 _Avoid_: Report, summary
 
 **Call**:
-A Conference's open call for papers, with a deadline, a link and its themes, found while scouting. It becomes nothing until Davide decides; when he chooses to submit, it becomes a CFP on a Talk.
+A Conference's open call for papers, with a deadline, a link and its themes, found while scouting. One Conference edition can open several Calls (a main track, a devroom), each known by its own link. It becomes nothing until Davide decides; when he chooses to submit, it becomes a CFP on a Talk.
 _Avoid_: Opportunity, open CFP
+
+**Temi**:
+The themes Davide submits Talks on, written by him; a Call that touches none of them is not worth a look, however close it is.
+_Avoid_: Topics, interests
 
 **CFP**:
 One of Davide's Talks submitted to one Conference: a line in the Talk's note with an Outcome, `CFP da inviare`, `CFP inviato`, `CFP accettato` or `CFP rifiutato`. One Talk has many CFPs.

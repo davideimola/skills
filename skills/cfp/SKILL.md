@@ -34,13 +34,16 @@ Read only the file for the phase in front of you:
 ## The Talk note
 
 In Contenuti `l78292msrPRH`: label `type` = `content`, label `channels` = `talk`, relation `template` =
-`HtMZvVGrddyG` (Content Item), label `status` = `idea | in-progress | published | archived`. Archived Talks
-are never candidates. Find my Talks with `#type=content #channels=talk #status != archived`.
+`HtMZvVGrddyG` (Content Item), label `status` = `idea | in-progress | published | archived`, label
+`flagSide` = `flag | side`. Archived Talks are never candidates. Find my Talks with
+`#type="content" #channels="talk" #status != "archived"`.
 
-The body, in Italian unless the note is already in English, keeps whatever it has and grows these sections:
+The body keeps its language: a new note is written in the language of the Call that triggered it (its
+Abstract and Proposta go into that Call's form), in Italian when no Call did. It keeps whatever it has and
+grows these sections:
 
 ```markdown
-<the original spark, verbatim>
+<the original spark, as I said it: transcription and punctuation repaired, meaning untouched>
 
 ## Abstract
 <three to five lines>
@@ -88,6 +91,9 @@ reused, never duplicated; the year tells editions apart. Without a `## Talk` sec
 ## Regola
 <my distance rule, in my words>
 
+## Temi
+<the themes I submit on, in my words>
+
 ## Watchlist
 - <Conference> · <its CFP page>
 
@@ -95,7 +101,10 @@ reused, never duplicated; the year tells editions apart. Without a `## Talk` sec
 - <Conference Year> · <city> · <Call link> · <YYYY-MM-DD seen>
 ```
 
-`## Regola` and `## Watchlist` are mine: you only read them. You write only `## Già viste` and the
+A Call is identified by its **Call link**: one Conference edition can open several Calls (a main track, a
+devroom), each with its own link, and seeing one never hides another.
+
+`## Regola`, `## Temi` and `## Watchlist` are mine: you only read them. You write only `## Già viste` and the
 `**Ultimo giro**` line. When the note or the hub is missing, stop and ask me to create it with those
 sections: the structure of Trilium is mine to change.
 
@@ -111,13 +120,17 @@ Read "Convenzioni per Claude" `kg6Nk6GFhfZK` before your first write of a run. T
   note you touch only `status` and `talkDate`, never a multi-value label like `channels` or `artifact`.
 - Link notes with Trilium internal links, `[title](#root/<noteId>)`, only to notes that exist.
 
+Searching has two traps. **Quote every label value**: `#status="in-progress"` matches, `#status=in-progress`
+silently returns nothing. **Never find an Outcome with a text search**: `"CFP inviato"` matches the words
+anywhere in a note, not the phrase. Load the Talk notes (they are few) and read their `## Talk` lines.
+
 If the `trilium` tools are missing or a call fails, say which, and give me in chat everything you were
 about to write, so nothing is lost.
 
 ## Language
 
-We talk in Italian, notes are in Italian, and CFP answers are in the CFP's language (ask when the Call
-does not make it clear). Conference and Session names stay in their original language.
+We talk in Italian. The Radar note is in Italian; a Talk note follows [The Talk note](#the-talk-note); CFP
+answers are in the CFP's language (ask when the Call does not make it clear). Conference and Session names stay in their original language.
 
 ---
 

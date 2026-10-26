@@ -4,7 +4,8 @@ Runs at the end of every scout round, and whenever I tell you how a CFP went.
 
 ## 1. Which CFPs to ask about
 
-Find the Talk notes with `CFP inviato` in their `## Talk` lines (`#type=content #channels=talk "CFP inviato"`).
+Load every Talk note ([SKILL.md](SKILL.md)) and read its `## Talk` lines: the CFPs with Outcome
+`CFP inviato` are the candidates. Never find them with a text search, which matches the words anywhere.
 A CFP is due when the **Notifica** date in its `CFP <Conference Year>` note has passed, or its Conference
 starts within eight weeks, or neither date is known. When I named a CFP myself, that one only.
 
