@@ -25,7 +25,7 @@ davideimola.dev repo).
 - `get_social_set_details`: read `publishing_quota`. If `remaining` is lower than what you are about to
   propose, say so up front.
 - `get_queue` for the next 14 days and `list_drafts` with `status: "published"` (last 10): know which
-  slots are free and which topics went out recently, so you do not repeat one.
+  days are already taken and which topics went out recently, so you do not repeat one.
 
 ## 2. Gather material
 
@@ -69,18 +69,21 @@ Iterate until I approve. Push back when a change weakens a post.
 For each approved post, `create_draft` on social set `97290`:
 
 - `platforms.x` and `platforms.bluesky` enabled with their posts; `linkedin` never.
-- `plan_at: "next-free-slot"`. **Never** `publish_at`, **never** `confirm_publish`: a planned draft sits
-  in the calendar and does nothing until I confirm it in Typefully.
+- `plan_at`: an exact date and time I approved. There are no queue slots in Typefully, so never pass
+  `"next-free-slot"`: propose a time for each post together with its text (spread over the week,
+  around midday Europe/Rome, on days with nothing else planned) and let me change it. **Never**
+  `publish_at`, **never** `confirm_publish`: a planned draft sits in the calendar and does nothing
+  until I confirm it in Typefully.
 - `draft_title`: a few words naming the topic.
 - `scratchpad_text`: the source (note title, post URL, PR link), so I can check it while reviewing.
 
-Done when every approved post exists as a planned draft. Reply with one line per draft (date of its
-slot and the first words), then a closing line reminding me the drafts publish only once I confirm
+Done when every approved post exists as a planned draft. Reply with one line per draft (planned date and
+time and the first words), then a closing line reminding me the drafts publish only once I confirm
 them in Typefully. If a call fails, say which, and give me the text so nothing is lost.
 
 ---
 
 _Self-contained on purpose: installed from `davideimola/skills` and run from any repo. Decided on
 2026-10-24: X is home, Bluesky is the mirror (its Italian audience went back to X; the people who are
-only on Bluesky, like Filippo Valsorda, still see the queue). The queue slots are set in Typefully's own
-settings, not here._
+only on Bluesky, like Filippo Valsorda, still see the queue). Since 2026-10-30 there are no queue slots:
+every post gets an exact time agreed with me._
