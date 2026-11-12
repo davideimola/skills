@@ -70,9 +70,31 @@ real specific, the shape of the idea), then stop at the threshold and point home
    story breathe, never staccato one-liners. One concrete detail or turn worth reading. Leave the full
    argument at home.
 3. **CTA**: one line naming what the reader gets by clicking through (the rest of the story, the how,
-   the numbers), then the link, at the bottom of the body. "Link in the first comment" does not help
-   on my posts. A closing question only if it is interesting on its own: "How do you structure your
-   X?" reads as bait.
+   the numbers), then where the link is. Where the link goes is under test: see "The link test" below.
+4. **Closing question**, optional: only one a reader can answer from their own practice without
+   reading the piece, ideally offering the real options ("Do you wait out the retention window, or
+   something smarter?"). On the crypto-shredding post (2026-11-12) a question like that got a reply
+   that picked one of its options. A generic "How do you structure your X?" still reads as bait.
+
+### The link test
+
+My July analytics said "link in the first comment" does not help on my posts. The crypto-shredding
+post (2026-11-12) put that in doubt: published through Typefully, its link in the body came out as a
+bare `lnkd.in` with no card, and comments arrived only after an edit that moved the link to the first
+comment and added a closing question. That one post changed two things at once, so it proves nothing
+and does not count.
+
+Until four posts with a link have run, two of each, alternate:
+
+- **body**: the link at the bottom of the post, as above.
+- **first-comment**: no URL in the post, the CTA ends with "link in the first comment", and the link
+  goes in `platforms.linkedin.settings.first_comment` with one real specific from the piece next to it.
+  With no card in the post, give it the 4:5 image.
+
+Pick the variant from the last LinkedIn draft in Typefully whose `scratchpad_text` has a `Link test:`
+line: use the other one; with none, start with `first-comment`. Tell me which variant this post gets
+and why. Once four have run, stop alternating and tell me to compare their impressions and comments in
+the monthly `/review`; the result replaces this section.
 
 Line breaks between paragraphs, conversational sentences inside them. The tone benchmark is the
 [ReactJS Day 2026 post](https://github.com/davideimola/davideimola.dev/blob/main/.carousel/reactjsday-2026-speaker/social-post.md):
@@ -86,11 +108,17 @@ any sentence that could be about any topic. If a sentence reads like a press rel
 **Always**: direct opinions without hedging, specifics (names, tools, numbers, events) over generic
 statements, humour only where it fits naturally.
 
+**Every fact from the source**: each number, name or claim in the post and in the first comment comes
+from the piece or from me, checked against it before you show me the draft. Never write an example
+fact for me to replace: a placeholder gets pasted as it is. On 2026-11-12 a made-up line about KMS
+costs ("almost flat as tenants grow") reached a published comment, and the post said the opposite.
+
 ### The visual
 
 Default to a single branded image in portrait 4:5 (1080x1350, more feed space on mobile than a
-square), or no image at all for pure storytelling. A post with a link already shows my site's card as
-its preview, so it often needs nothing else. Carousel reach is declining (2026-07): propose one only
+square), or no image at all for pure storytelling. Do not count on my site's card: through Typefully a
+link in the body came out as a bare `lnkd.in` with no preview (2026-11-12), so a post with no image
+shows as text only. Carousel reach is declining (2026-07): propose one only
 for genuinely step-by-step content (a process, numbered lessons, a before and after), never for a
 story or a reflection.
 
@@ -219,7 +247,10 @@ Through the `typefully` MCP server, social set `97290`:
   `"next-free-slot"`. Propose one: the note's `#linkedinDate` if it has one, otherwise Tuesday to
   Thursday around 8:30 Europe/Rome, never Friday, on a day with nothing else planned on LinkedIn.
   **Never** `publish_at`, **never** `confirm_publish`.
-- `draft_title`: the topic in a few words. `scratchpad_text`: the source (post URL, note title).
+- `draft_title`: the topic in a few words. `scratchpad_text`: the source (post URL, note title) and,
+  for a post with a link while the link test runs, a line `Link test: body` or
+  `Link test: first-comment`.
+- The `first-comment` variant: the link and its line in `platforms.linkedin.settings.first_comment`.
 - The image or carousel: attach it through the MCP's media upload if it offers one; otherwise give me
   the absolute path of the file to attach by hand.
 
